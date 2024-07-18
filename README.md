@@ -1,5 +1,5 @@
 # terraform-vpc-batch6
-
+```hcl
 module "batch6" {
      
     source = "svalovtech/batch6/vpc"
@@ -15,3 +15,4 @@ module "batch6" {
     {  cidr  = "10.0.3.0/24", subnet_name = "kaizen3" }
     ]
 }
+```
